@@ -47,6 +47,7 @@ let package = Package(
                 .linkedFramework("CoreTelephony"),
                 .linkedFramework("AVFoundation"),
                 .linkedFramework("OpenGLES"),
+                .linkedFramework("CoreMotion"),
                 .linkedFramework("Accelerate"),
                 .linkedFramework("MetalKit"),
                 .linkedFramework("MobileCoreServices"),
